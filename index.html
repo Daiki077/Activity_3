@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity_2</title>
+
+<style>
+    body{
+        background-color: beige;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        text-align: center;
+        font-family: serif;
+        margin-top: 20px;
+    }
+p{
+    margin-left: auto;
+    margin-right: auto;
+}
+.color_div{
+    width: fit-content;
+    margin: 0 auto;
+    background-color:antiquewhite;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 50px;
+}
+.submit_div{
+    height: 20px;
+}
+
+input[type = "text"] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: black;
+
+}
+
+input[type = "submit"] {
+    background-color: green;
+    color: white;
+    padding-bottom: 2px;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+</style>
+
+</head>
+<h1>STUDENT FORM</h1>
+<body>
+    <div class="color_div">
+        <form action="thankyou.html">
+        <p>Name</p>
+        <input type="text" placeholder="Full name" size="30" >
+        <p>Student ID</p>
+        <input type="text" placeholder="Student ID"  maxlength="15" size="30">
+        <p>Home Address</p>
+        <input type="text" placeholder="Address" size="30">
+        <p>Contact number</p>
+        <input type="text"  placeholder="Contact number" size="30" maxlength="9">
+        <div class="submit_div">
+            <input type="submit">
+        </form>
+        </div>
+    </div>
+    
+</body>
+</html>
